@@ -1,25 +1,47 @@
-# README
+![](https://res.cloudinary.com/dko7n7x16/image/upload/v1520545056/Ruby-on-Rails_unz92n.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails Starter App - CRUD
 
-Things you may want to cover:
+Rails Starter App is a boilerplate application developed with Rails 5.0.6 to keep you ahead in projects.
 
-* Ruby version
+![](https://res.cloudinary.com/dko7n7x16/image/upload/v1520546778/Simple_Rails_App_lqcroo.png)
 
-* System dependencies
+Basic Features
+--------
 
-* Configuration
+- **CREATE** Create Posts
+- **READ** Read Posts
+- **UPDATE** Update Posts
+- **DESTROY** Delete Posts
 
-* Database creation
 
-* Database initialization
+#### Cloning The Repository:
+Below are the setups to run Ruby on Rails application on your system.
 
-* How to run the test suite
+Make sure Ruby is installed on your system. Fire command prompt and run bash:
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+#Make sure Ruby and Rails is installed
+ruby -v
+railv -v
 
-* Deployment instructions
+#If you see Ruby and Rails version then you are good to start, other wise Setup Ruby On Rails
 
-* ...
-# RailsApp
+# Get the project
+git clone https://github.com/samuel52/RailsApp.git
+
+# Change directory
+cd RailsApp
+
+# Install bundle
+bundle install
+
+#Create db and migrate schema
+rake db:create
+rake db:migrate
+
+$Run your application
+
+rails s
+```
+
