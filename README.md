@@ -1,4 +1,4 @@
-![](https://res.cloudinary.com/dko7n7x16/image/upload/v1520545056/Ruby-on-Rails_unz92n.png)
+![](http://res.cloudinary.com/dko7n7x16/image/upload/c_scale,w_900/v1520545056/Ruby-on-Rails_unz92n.png)
 
 # Rails Starter App - CRUD
 
